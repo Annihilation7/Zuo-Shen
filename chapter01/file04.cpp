@@ -107,7 +107,7 @@ public:
         while (!dog_queue.empty() && !cat_queue.empty()) {
             MyPet dog_front = dog_queue.front();
             MyPet cat_front = cat_queue.front();
-            if (dog_front.getPetCount() <= cat_front.getPetCount()) {
+            if (dog_front.getPetCount() <= cat_front.getPetCount()) {  // 严格来说不会有等于的情况
                 res.push_back(dog_front.getPetType());
                 dog_queue.pop();
             } else {
