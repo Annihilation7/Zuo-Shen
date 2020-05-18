@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/nofalling/github/ZuoShen/chapter01/file04.cpp
+/home/nofalling/github/ZuoShen/chapter01/file05.cpp
 iostream
 -
-string
--
-queue
--
-cassert
--
-vector
+stack
 -
 
